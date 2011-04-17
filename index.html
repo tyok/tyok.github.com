@@ -2,8 +2,111 @@
 <html>
     <head>
         <title>tyok.org</title>
+        <style>
+            body {
+                background: url(149.png), url(131.png), url(67.png), url(97.png);
+                background-color: #b7ca79;
+                margin: 0;
+                font-family: ubuntu, helvetica, arial, sans-serif;
+                font-size: 24px;
+            }
+
+            .container {
+                color: #EAF2E4;
+                line-height: 1.5;
+                position: absolute;
+                top: 50px;
+                padding: 0 ;
+                width: 100%;
+                min-width: 750px;
+                height: 300px;
+                background: rgba(42, 51, 33, 0.8);
+                -webkit-box-shadow: 0px 1px 3px #677e52;
+                -moz-box-shadow: 0px 1px 3px #677e52;
+                border: 2px solid #fff;
+                border-left-width: 0;
+                border-right-width: 0;
+                text-shadow: 1px 1px 5px #333;
+            }
+
+            .container p {
+                margin: 0;
+            }
+
+            .content {
+                margin: 60px auto 0;
+                padding: 20px 20px 40px;
+                background: rgba(0,0,0, 0.2);
+                border-radius: 6px;
+                width: 710px;
+            }
+
+            .avatar {
+                float: left;
+                padding: 2px;
+                border-radius: 3px;
+                margin: 8px 20px 20px 18px;
+                background: #000;
+            }
+
+            .nick {
+                color: #ff9800;
+            }
+
+            .name {
+                color: #f6e8b1;
+            }
+
+            .link {
+                text-decoration: none;
+                background: -webkit-linear-gradient(#bbb, #999);
+                background: -moz-linear-gradient(#bbb, #999);
+                border: 1px solid #999;
+                padding: 0px 9px 5px 9px;
+                border-radius: 3px;
+                text-shadow: -1px -1px #999;
+                color: #fff;
+                -webkit-box-shadow: 1px 1px 5px #444;
+                -moz-box-shadow: 1px 1px 5px #444;
+            }
+
+            .link:hover, .link:focus, .link:active {
+                background: -webkit-linear-gradient(#ddd, #999);
+                background: -moz-linear-gradient(#ddd, #999);
+            }
+
+            .link:active {
+                padding: 0px 8px 5px 10px;
+            }
+
+            .twitter {
+                background: -webkit-linear-gradient(#82C1C4, #6B9EA1);
+                background: -moz-linear-gradient(#82C1C4, #6B9EA1);
+                border-color: #6B9EA1;
+                text-shadow: -1px -1px #6B9EA1;
+            }
+
+            .twitter:hover, .twitter:focus, .twitter:active {
+                background: -webkit-linear-gradient(#9AE4E8, #6B9EA1);
+                background: -moz-linear-gradient(#9AE4E8, #6B9EA1);
+            }
+
+        </style>
     </head>
     <body>
-        Tyok is Mohammad Satrio Utomo, a programmer from Indonesia. <a href="https://github.com/tyok" title="Tyok is on github">Fork him.</a>
+        <div class="container">
+            <div class="content">
+                <img class="avatar" src="gravatar.jpg" alt="tyok's gravatar" />
+                <p>
+                    <span class="nick">Tyok</span> is <span class="name">Mohammad Satrio Utomo</span>, a programmer from Indonesia.
+                </p>
+                <p>
+                    He's on
+                    <a class="link github" href="https://github.com/tyok" title="Tyok is on github">github</a>
+                    and
+                    <a class="link twitter" href="https://twitter.com/tyoook" title="Tyok is on twitter">twitter</a>.
+                </p>
+            </div>
+        </div>
     </body>
 </html>
