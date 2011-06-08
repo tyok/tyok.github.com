@@ -33,7 +33,7 @@ end
 
 desc 'Build and start server'
 task :server => :default do
-  sh %{ jekyll --server --safe }
+  sh %{ jekyll --server --safe  --auto }
 end
 
 desc "Generate html and css"
