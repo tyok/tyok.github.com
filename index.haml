@@ -1,0 +1,24 @@
+<! DOCTYPE html>
+%html
+  %head
+    %meta{:content => "text/html;charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title tyok.org
+    %link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Ubuntu", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/stylesheets/main.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    .container
+      .content
+        %img.avatar{:alt => "tyok's gravatar", :src => "gravatar.jpg"}/
+        %p
+          %span.nick Tyok
+          is
+          = succeed "," do
+            %span.name Mohammad Satrio Utomo
+          a programmer from Indonesia.
+        %p
+          He's on
+          %a.link.github{:href => "https://github.com/tyok", :title => "Tyok is on github"} github
+          and
+          = succeed "." do
+            %a.link.twitter{:href => "https://twitter.com/tyoook", :title => "Tyok is on twitter"} twitter
